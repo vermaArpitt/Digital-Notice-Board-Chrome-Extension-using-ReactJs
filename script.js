@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('reset').addEventListener('click', reset);
     document.getElementById('work-btn').addEventListener('click', () => setMode('work'));
     document.getElementById('break-btn').addEventListener('click', () => setMode('break'));
+
+    document.getElementById('increase-time').addEventListener('click', () => adjustTime(5));
+    document.getElementById('decrease-time').addEventListener('click', () => adjustTime(-5));
 });
 
 let workTittle = document.getElementById('work');
@@ -92,4 +95,14 @@ function reset() {
 
     document.getElementById('start').innerHTML = '<i class="fas fa-play"></i>';
     document.getElementById('reset').style.display = "none";
+}
+
+function adjustTime(amount) {
+    if (currentMode === 'work') {
+        workTime = Math.max(5, workTime + amount);
+        setMode('work');
+    } else if (currentMode === 'break') {
+        breakTime = Math.max(5, breakTime + amount);
+        setMode('break');
+    }
 }
