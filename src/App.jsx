@@ -1,5 +1,5 @@
 import React from "react";
-import SlidesWidget from './Components/SlidesWidget/SlidesWidget;'
+import SlidesWidget from './Components/SlidesWidget/SlidesWidget';
 
 const App = () =>
 {
