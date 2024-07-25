@@ -51,7 +51,7 @@ section {
 
 .container {
     width: 20rem; /* Reduced container width */
-    height: 20rem; /* Reduced container height */
+    height: auto; /* Adjusted for content */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,6 +79,29 @@ section {
 }
 
 .selector button:hover {
+    background-color: hsl(358, 78%, 75%);
+}
+
+.duration-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.duration-controls button {
+    background-color: var(--color-secondary);
+    color: var(--color-font);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.duration-controls button:hover {
     background-color: hsl(358, 78%, 75%);
 }
 
