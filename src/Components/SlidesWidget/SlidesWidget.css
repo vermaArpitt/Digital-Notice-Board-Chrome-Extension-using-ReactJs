@@ -5,8 +5,22 @@
 
 .date-time{
     margin: 20px;
-    background: transparent;
-    backdrop-filter: blur(1px);
+    background: rgba(0,0,0,.2);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.time{
+    font-size: 60px;
+    color: white;
+    padding: 5px;
+}
+
+.time-zone{
+    font-size: 10px;
+    color: white;
+    padding: 5px;
 }
 
 .iframe-wrapper{
