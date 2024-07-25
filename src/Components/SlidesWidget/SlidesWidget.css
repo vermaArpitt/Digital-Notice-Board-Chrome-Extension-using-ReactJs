@@ -1,5 +1,6 @@
 .slidesWidget{
     margin: 20px;
+    width: fit-content;
 }
 
 .slides-iframe{
