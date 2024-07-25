@@ -1,4 +1,15 @@
 .slidesWidget{
+    height: 50%;
+    width: fit-content;
+}
+
+.date-time{
+    margin: 20px;
+    background: transparent;
+    backdrop-filter: blur(1px);
+}
+
+.iframe-wrapper{
     margin: 20px;
     width: fit-content;
     background-color: rgb(85, 78, 241);
