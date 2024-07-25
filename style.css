@@ -1,0 +1,146 @@
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --color-primary: hsl(235, 35%, 19%);
+    --color-secondary: hsl(358, 78%, 69%);
+    --color-font: hsla(0, 0%, 100%, 0.902);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--color-primary);
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,
+i,
+h1 {
+    color: var(--color-font);
+}
+
+i {
+    font-size: 2.4rem; /* Reduced icon size */
+}
+
+h1 {
+    font-size: 2.4rem; /* Reduced header size */
+}
+
+/* ==== CONTENT ==== */
+
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0;
+    padding: 1rem; /* Add padding to avoid touching the edges */
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: auto; /* Adjusted for content */
+}
+
+.container {
+    width: 20rem; /* Reduced container width */
+    height: 20rem; /* Reduced container height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.selector {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Add space between buttons */
+}
+
+.selector button {
+    background-color: var(--color-secondary);
+    color: var(--color-font);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.selector button:hover {
+    background-color: hsl(358, 78%, 75%);
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem; /* Reduced width */
+    height: 20rem; /* Reduced height */
+    border-radius: 50%;
+    background-color: var(--color-primary); /* Removed shadow */
+    margin-top: 1rem; /* Added margin to separate from buttons */
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem; /* Reduced width */
+    height: 16rem; /* Reduced height */
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    position: relative;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 90%; /* Reduced width */
+    height: 90%; /* Reduced height */
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+
+.time {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.time p {
+    font-size: 3.6rem; /* Reduced font size */
+}
+
+.time p:nth-of-type(2) {
+    position: relative;
+    top: -.2rem; /* Adjusted positioning */
+    margin-inline: 0.5rem; /* Reduced margin */
+}
+
+.controls {
+    display: flex; /* Align buttons side by side */
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem; /* Reduced margin */
+}
+
+.controls button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem; /* Adjust font size for buttons */
+    margin: 0 0.5rem; /* Space between buttons */
+    color: var(--color-font); /* Button text color */
+}
