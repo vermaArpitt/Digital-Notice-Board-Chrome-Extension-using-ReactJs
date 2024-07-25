@@ -1,8 +1,12 @@
 .slidesWidget{
     margin: 20px;
     width: fit-content;
+    background-color: rgb(85, 78, 241);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
 }
 
 .slides-iframe{
+    margin: 5px;
     border-radius: 10px;
 }

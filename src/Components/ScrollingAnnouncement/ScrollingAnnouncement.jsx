@@ -5,7 +5,9 @@ export default function ScrollingAnnouncement()
 {
     return(
         <div className="scrollAnnouncement">
-            <p>Hackathon Alert! Deadline: 12pm 26 July</p>
+            <div className="text-background">
+                <p>Hackathon Alert! Deadline: 12pm 26 July</p>
+            </div>
         </div>
     )
 }
