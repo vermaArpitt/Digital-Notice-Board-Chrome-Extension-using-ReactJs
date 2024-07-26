@@ -1,0 +1,59 @@
+.til-widget {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    min-width: 175px;
+    height: fit-content;
+  }
+  
+  .til-widget h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #595959;
+  }
+  
+  .til-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .til-input textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px;
+  }
+  
+  .til-input button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(85, 78, 241);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .til-entries {
+    margin-top: 20px;
+  }
+  
+  .til-entry {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .til-entry p {
+    margin: 0 0 10px;
+  }
+  
+  .til-entry small {
+    color: #666;
+  }
+  

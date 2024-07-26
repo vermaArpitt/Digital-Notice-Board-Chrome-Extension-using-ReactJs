@@ -1,0 +1,16 @@
+.bookmarkWidget{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: fit-content;
+    width: fit-content;
+}
+
+.bookmarkWidget a{
+    height: 50px;
+}

@@ -6,6 +6,15 @@
 {
   margin-top: 50px;
   display: flex;
-  width: 100%;
-  gap: 100px;
+  gap: 20px;
+}
+
+.side-widgets{
+  display: flex;
+  flex-direction: column;
+}
+
+.botoom-widgets{
+  display: flex;
+  align-items: center;
 }

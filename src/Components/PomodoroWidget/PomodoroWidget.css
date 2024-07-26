@@ -5,6 +5,7 @@
     flex-direction: column;
     padding: 20px 10px;
     margin: 20px;
+    margin-left: 450px;
     justify-content: center;
     align-items: center;
     background: transparent;
@@ -52,8 +53,8 @@
 .circle{
     position: absolute;
     background-color: rgb(236, 236, 236);
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
