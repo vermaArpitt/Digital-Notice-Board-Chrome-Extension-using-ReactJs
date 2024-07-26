@@ -1,0 +1,26 @@
+.dgc{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.dgc h2{
+    margin-left: 5px;
+    color: #383838;
+}
+
+.checklist-items {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.checklist-items input{
+    border: none;
+    margin: 6px;
+    font: 20px;
+}
+
+.checklist-items span{
+    font-size: 15px;
+}

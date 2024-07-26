@@ -1,5 +1,6 @@
 .bookmarkWidget{
     margin: 20px;
+    margin-left: 45px;
     display: flex;
     align-items: center;
     border-radius: 10px;

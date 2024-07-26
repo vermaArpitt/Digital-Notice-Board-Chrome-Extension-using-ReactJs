@@ -1,8 +1,9 @@
 import React from 'react';
+import './DGCWidget.css';
 
 const ChecklistItem = ({ task, onToggleTask }) => {
   return (
-    <div>
+    <div className='checklist-items'>
       <input 
         type="checkbox" 
         checked={task.completed} 
