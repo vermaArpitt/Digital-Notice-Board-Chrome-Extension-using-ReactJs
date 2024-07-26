@@ -7,10 +7,24 @@
     backdrop-filter: blur(4px);
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    height: fit-content;
+    height: 150px;
     width: fit-content;
+    padding-bottom: 25px;
 }
 
 .bookmarkWidget a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
     height: 50px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.bookmarkWidget img{
+    height: 70px;
+    width: 70px;
 }
