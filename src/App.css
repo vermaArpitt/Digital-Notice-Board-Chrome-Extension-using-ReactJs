@@ -1,3 +1,11 @@
 .App{
-  height: 100vh;
+  height: fit-content;
+}
+
+.widgets
+{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  gap: 100px;
 }

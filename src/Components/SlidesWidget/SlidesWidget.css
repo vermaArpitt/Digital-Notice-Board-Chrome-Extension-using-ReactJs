@@ -5,10 +5,12 @@
 
 .date-time{
     margin: 20px;
-    background: rgba(0,0,0,.2);
-    border: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
     border-radius: 10px;
     width: fit-content;
+    padding: 10px;
+    height: fit-content;
 }
 
 .time{
@@ -20,7 +22,7 @@
 .time-zone{
     font-size: 10px;
     color: white;
-    padding: 5px;
+    margin-left: 0;
 }
 
 .iframe-wrapper{

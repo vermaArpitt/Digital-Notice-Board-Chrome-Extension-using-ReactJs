@@ -5,7 +5,7 @@
 }
 
 body{
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url('./assets/20005494_6217049.svg');
   background-size: cover;
 }

@@ -10,7 +10,7 @@ const SlidesWidget = () =>
         let now = new Date();
         let time = now.toTimeString().slice(0, 8); 
         setCurrentTime(time);
-        setTimeZone(now.toTimeString().slice(8));
+        setTimeZone(now.toTimeString().slice(8, 16));
     }
 
     setTimeout(UpdateTime, 1000);
