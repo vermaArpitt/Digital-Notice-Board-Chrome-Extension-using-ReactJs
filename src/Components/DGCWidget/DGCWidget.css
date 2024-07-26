@@ -1,13 +1,16 @@
 .dgc{
+    border-top: 2px solid white;
     background: transparent;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     height: fit-content;
+    margin: 6px;
+    margin-top: 12px;
 }
 
 .dgc h2{
-    margin-left: 5px;
     color: #383838;
+    margin: 5px;
 }
 
 .checklist-items {

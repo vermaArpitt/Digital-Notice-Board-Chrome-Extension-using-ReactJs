@@ -7,6 +7,8 @@ import CalendarWidget from './Components/CalendarWidget/CalendarWidget';
 import TILWidget from "./Components/TILWidget/TILWidget";
 import DGCWidget from "./Components/DGCWidget/DGCWidget";
 import BookmarkWidget from "./Components/BookmarkWidget/BookmarkWidget";
+import PollWidget from "./Components/PollWidget/PollWidget";
+import ScribbleWidget from "./Components/ScribbleWidget/ScribbleWidget";
 
 const App = () =>
 {
@@ -34,6 +36,8 @@ const App = () =>
       </div>
       <div className="bottomWidgets">
         <BookmarkWidget/>
+        <PollWidget/>
+        <ScribbleWidget/>
       </div>
       <ScrollingAnnouncement/>
     </div>
