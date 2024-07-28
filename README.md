@@ -1,5 +1,12 @@
 <h1 align="center"> Digital NoticeBoard </h1>
-<h5 align="center"> Digital NoticeBoard is a Chrome extension that is designed to replace your browser's homepage. It includes multiple widgets that help you increase your productivity and time management skills.</h5>
+<h5 align="center"> Digital NoticeBoard is a Chrome extension designed to replace your browser's homepage. <br/> 
+It includes multiple widgets that help increase your productivity and time management skills. The extension includes but is not limited to the following widgets: <br/> 
+  * Google Slides Embed
+  * Pomodoro Timer
+  * Growth Checklist
+  * Today I Learnt Corner
+  * Google Services Menu
+</h5>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
