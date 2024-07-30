@@ -57,4 +57,8 @@ Open a new tab in your Chrome browser and voilà! the Digital NoticeBoard should
 * [Node JS](https://nodejs.org/en/) - A free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools, and scripts.
 
 ## Screenshots
+![WhatsApp Image 2024-07-26 at 11 48 04](https://github.com/user-attachments/assets/5b714b1d-7b36-46cf-86b3-90abb657bd56)
+<br/><br/><br/><br/>
+![WhatsApp Image 2024-07-26 at 11 48 21](https://github.com/user-attachments/assets/9cc3e897-d8b7-46e1-929c-aa3a92ea19dd)
+
 
