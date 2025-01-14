@@ -1,0 +1,35 @@
+.poll-widget {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: Arial, sans-serif;
+    margin: 30px 50px;
+  }
+
+  .poll-widget h3{
+    color: white;
+    margin: 5px;
+  }
+  
+  .start-poll-button,
+  .vote-button,
+  .add-option-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .option {
+    margin: 10px 0;
+  }
+  
+  .result-option {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f4f4f4;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
