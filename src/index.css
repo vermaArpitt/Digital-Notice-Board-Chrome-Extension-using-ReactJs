@@ -9,6 +9,6 @@ body{
   background-color: antiquewhite;
   background-image: url('./assets/20005494_6217049.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   max-width: 100vw;
 }

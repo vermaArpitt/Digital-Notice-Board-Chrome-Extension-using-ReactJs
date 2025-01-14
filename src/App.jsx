@@ -1,14 +1,11 @@
 import React, {useState} from "react";
 import './App.css';
-import ScrollingAnnouncement from './Components/ScrollingAnnouncement/ScrollingAnnouncement';
 import SlidesWidget from './Components/SlidesWidget/SlidesWidget';
 import PomodoroWidget from "./Components/PomodoroWidget/PomodoroWidget";
 import CalendarWidget from './Components/CalendarWidget/CalendarWidget';
 import TILWidget from "./Components/TILWidget/TILWidget";
 import DGCWidget from "./Components/DGCWidget/DGCWidget";
 import BookmarkWidget from "./Components/BookmarkWidget/BookmarkWidget";
-import PollWidget from "./Components/PollWidget/PollWidget";
-import ScribbleWidget from "./Components/ScribbleWidget/ScribbleWidget";
 
 const App = () =>
 {
@@ -36,10 +33,7 @@ const App = () =>
       </div>
       <div className="bottomWidgets">
         <BookmarkWidget/>
-        <PollWidget/>
-        <ScribbleWidget/>
       </div>
-      <ScrollingAnnouncement/>
     </div>
   )
 }
